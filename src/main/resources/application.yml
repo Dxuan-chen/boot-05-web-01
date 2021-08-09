@@ -1,0 +1,10 @@
+spring:
+  mvc:
+    static-path-pattern: /res/**
+
+  web:
+    resources:
+      static-locations: [classpath:/haha/,classpath:resources]
+
+#      cache:
+#        period: 11000
