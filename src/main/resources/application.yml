@@ -1,10 +1,14 @@
-spring:
-  mvc:
-    static-path-pattern: /res/**
-
-  web:
-    resources:
-      static-locations: [classpath:/haha/,classpath:resources]
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
+#
+#  web:
+#    resources:
+#      static-locations: [classpath:/haha/,classpath:resources]
 
 #      cache:
 #        period: 11000
+
+server:
+  servlet:
+    context-path: /world
